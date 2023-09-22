@@ -23,7 +23,6 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
 #endif
 
 #ifdef OLED_ENABLE
-#ifdef OLED_DEFAULT_LULU
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
   if (!is_keyboard_master()) {
     return OLED_ROTATION_180;
@@ -247,5 +246,4 @@ bool oled_task_kb(void) {
     }
     return false;
 }
-#endif
 #endif
