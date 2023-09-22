@@ -1,5 +1,7 @@
 #pragma once
 
+#define FORCE_NKRO
+
 #define BOOTMAGIC_LITE_ROW 2
 #define BOOTMAGIC_LITE_COLUMN 0
 #define BOOTMAGIC_LITE_ROW_RIGHT 7
